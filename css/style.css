@@ -4,6 +4,43 @@ Base Layout
 
 ======================*/
 
+* {
+	box-sizing: border-box;
+	font-family: 'Merriweather', Georgia, serif;
+	font-weight: 300; 
+}
+
+
+.main-header {
+	background-color: rgba(30, 45, 55, 1);
+	padding: 25px;
+}
+
+.main-header h1 {
+	color: white;
+	margin-top: 0;
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+}
+
 .wrapper {
-	width: 100%;
+	margin: 0 auto;
+}
+
+.intro {
+	text-align: center;
+}
+
+.intro h2 {
+	font-weight: 700;
+}
+
+.intro p,
+.main-footer p {
+	color: darkgrey;
+}
+
+label {
+	color: rgba(30, 45, 55, 1);
 }
