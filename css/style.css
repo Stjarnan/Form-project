@@ -61,6 +61,9 @@ Content-part
 	font-style: italic;
 }
 
+.main-footer {
+	padding-bottom: 150px;
+}
 /* =====================
 
 Form
@@ -89,6 +92,14 @@ label[for="fullname"],
 
 }
 
+input, 
+select, 
+textarea {
+	background-color: #e8eeef;
+	padding: 15px;
+	border-radius: 4px;
+	border: none;
+}
 
 legend {
 	font-weight: 700;
@@ -100,6 +111,7 @@ legend {
 textarea {
 	resize: none;
 	width: 100%;
+	height: 100px;
 }
 
 input {
@@ -107,15 +119,18 @@ input {
 	width: 100%;
 }
 
+
 input[type="radio"],
 input[type="checkbox"] {
-  display: inline;
   width: 3%;
+  display: inline;
 }
 
 select {
 	display: block;
 	width: 100%;
+	height: 50px;
+	color: darkgrey;
 }
 
 
