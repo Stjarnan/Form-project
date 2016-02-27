@@ -162,8 +162,10 @@ select {
 
 .line {
 	border-bottom: dotted 1px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+	margin-top: 30px;
 }
+
 
 
 /* moves the placeholders to the right and makes them italic */
@@ -194,8 +196,63 @@ input[type="submit"] {
 
 
 
+/* =====================
+
+Media Queries
+
+======================*/
 
 
+
+@media (min-width: 760px) {
+
+    .main-header {
+		padding-bottom: 5px;
+	}
+
+
+	.wrapper {
+		width: 60%;
+	}
+
+	.inline-label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 30%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+input,
+select {
+	display: inline-block;
+	width: 70%;
+	margin-top: 20px;
+}
+
+input[name="zipcode"] {
+	width: 30%;
+}
+
+input[type="submit"] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.main-footer {
+	padding-top: 20px;
+}
+}
+
+/* Prevent form from getting to wide */
+
+@media (min-width: 1024px) {
+	.wrapper {
+		width: 60%;
+		max-width: 614px;
+	}
+}
 
 
 
