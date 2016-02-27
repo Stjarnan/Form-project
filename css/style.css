@@ -11,6 +11,12 @@ Base Layout
 }
 
 
+/* =====================
+
+Header
+
+======================*/
+
 .main-header {
 	background-color: rgba(30, 45, 55, 1);
 	padding: 25px;
@@ -24,12 +30,21 @@ Base Layout
 	text-align: center;
 }
 
+/* =====================
+
+Content-part
+
+======================*/
+
 .wrapper {
 	margin: 0 auto;
+	width: 90%;
 }
 
 .intro {
 	text-align: center;
+	border-bottom: solid 3px black;
+	padding-bottom: 25px;
 }
 
 .intro h2 {
@@ -39,8 +54,72 @@ Base Layout
 .intro p,
 .main-footer p {
 	color: darkgrey;
+	text-align: center;
 }
+
+.main-footer p {
+	font-style: italic;
+}
+
+/* =====================
+
+Form
+
+======================*/
+
+
+fieldset {
+	border: none;
+	border-top: solid 2px black;
+	margin: 2px 0;
+	padding: 25px 0;
+	position: relative;
+}
+
 
 label {
 	color: rgba(30, 45, 55, 1);
+	display: inline-block;
+	padding: 10px 0 8px;
 }
+
+label[for="fullname"],
+.newslabel {
+	padding: 25px 0 8px;
+
+}
+
+
+legend {
+	font-weight: 700;
+	font-size: 20px;
+	position: absolute;
+	top: 25px;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+}
+
+input {
+	display: block;
+	width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  width: 3%;
+}
+
+select {
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+

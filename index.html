@@ -20,7 +20,7 @@
 		    </div>
 		    <form action="index.html" method="post">
 		    	<fieldset>
-		    		<legend>Contact Information</legend>
+		    		<legend>Contact Information</legend><br>
                     
                     <label for="fullname">Full Name</label>
 		    		<input type="text" id="fullname" name="fullname" placeholder="Required" required>
@@ -101,31 +101,34 @@
 						</optgroup>
 					</select>	
 
-					<label for="zipcode">ZIP Code</label>
+					<label for="zipcode">Zip Code</label>
 					<input type="number" id="zipcode" name="zipcode">			
 		    	</fieldset>
 
 		    	<fieldset>
-		    		<legend>Newsletter</legend>
+		    		<legend>Newsletter</legend><br>
 
-		    		<p>Select the newsletters you would like to receive</p>
+		    		<label class="newslabel">Select the newsletters you would like to receive</label><br>
 
-		    		<label for="html_news">HTML News</label>
+		    		
 		    		<input type="checkbox" id="html_news" name="html_news" value="html_news">
+		    		<label for="html_news" class="label-align">HTML News</label><br>
 
-		    		<label for="css_news">CSS News</label>
+		    		
 		    		<input type="checkbox" id="css_news" name="css_news" value="css_news">
+		    		<label for="css_news">CSS News</label><br>
 
-		    		<label for="javascript_news">Javascript News</label>
+		    		
 		    		<input type="checkbox" id="javascript_news" name="javascript_news" value="javascript_news">
+		    		<label for="javascript_news">Javascript News</label><br>
 
-		    		<p>Newsletter format</p>
+		    		<label>Newsletter format</label><br>
 
 		    		<input type="radio" id="html" name="letter_format" value="html">
-		    		<label for="html">HTML</label>
+		    		<label for="html">HTML</label><br>
 
 		    		<input type="radio" id="plain_text" name="letter_format" value="plain_text">
-		    		<label for="plain_text">Plain Text</label>
+		    		<label for="plain_text">Plain Text</label><br>
 
 		    		<p>Other topics you'd like to hear about</p>
 		    		<textarea maxlength="250" name="other_topics"></textarea>
