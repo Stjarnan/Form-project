@@ -94,8 +94,8 @@ label[for="fullname"],
 }
 
 input, 
-select, 
-textarea {
+select,
+textarea {
 	background-color: #e8eeef;
 	padding: 15px;
 	border-radius: 4px;
